@@ -5,7 +5,7 @@ const Post = () => {
 	return <div>Post</div>
 }
 
-NewPost.getLayout = function getLayout(page, pageProps) {
+Post.getLayout = function getLayout(page, pageProps) {
 	return <AppLayout {...pageProps}>{page}</AppLayout>
 }
 
